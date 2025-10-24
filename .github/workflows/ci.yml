@@ -3,8 +3,7 @@ name: CI Docker Workflow
 on:
   push:
     branches:
-      - master  # change to main if your branch is main
-
+      - master  
 jobs:
   build:
     runs-on: ubuntu-latest
