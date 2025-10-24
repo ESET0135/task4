@@ -22,3 +22,4 @@ jobs:
         run: |
           docker build -t esyasoftshubham/mydockerimage:${{ github.sha }} .
           docker push esyasoftshubham/mydockerimage:${{ github.sha }}
+          
